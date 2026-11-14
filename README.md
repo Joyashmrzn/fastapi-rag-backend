@@ -68,20 +68,19 @@ This project allows users to :
 
 # Technology Stack
 
- -Technology   |  -Purpose 
-
- Python        | Backend programming language 
- FastAPI       | REST API development 
- PostgreSQL    | Document metadata and interview booking storage 
- SQLAlchemy    | Database interaction 
- Qdrant        | Vector database for storing and retrieving embeddings 
- FastEmbed     | Text embedding generation 
- LangChain     | Recursive text chunking 
- Text Splitters  
- Redis         | Conversational memory and temporary booking state 
- Google Gemini | LLM for RAG responses and interview booking 
- PyPDF         | PDF text extraction 
- Pydantic      | Request validation and data modelling 
+| Technology | Purpose |
+|---|---|
+| Python | Backend programming language |
+| FastAPI | REST API development |
+| PostgreSQL | Document metadata and interview booking storage |
+| SQLAlchemy | Database interaction |
+| Qdrant | Vector database for storing and retrieving embeddings |
+| FastEmbed | Text embedding generation |
+| LangChain Text Splitters | Recursive text chunking |
+| Redis | Conversational memory and temporary booking state |
+| Google Gemini | LLM for RAG responses and interview booking |
+| PyPDF | PDF text extraction |
+| Pydantic | Request validation and data modelling |
 
 # API Documentation
 
@@ -92,15 +91,12 @@ You can use Swagger UI to test the available API endpoints.
 
 # API Endpoints
 
-Method      Endpoint        Description
-
-POST        /ingest/        Upload and process PDF or TXT documents
-
-POST        /retrieve/      Retrieve relevant document chunks using semantic search
-
-POST        /chat/          Ask questions and interact with the conversational RAG assistant
-
-POST        /booking/       Create an interview booking
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/ingest/` | Upload and process PDF or TXT documents |
+| POST | `/retrieve/` | Retrieve relevant document chunks using semantic search |
+| POST | `/chat/` | Ask questions and interact with the conversational RAG assistant |
+| POST | `/booking/` | Create an interview booking |
 
 # Running Tests
 
