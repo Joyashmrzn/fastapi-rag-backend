@@ -68,20 +68,20 @@ This project allows users to :
 
 # Technology Stack
 
- Technology     Purpose 
+ -Technology   |  -Purpose 
 
- Python         Backend programming language 
- FastAPI        REST API development 
- PostgreSQL     Document metadata and interview booking storage 
- SQLAlchemy     Database interaction 
- Qdrant         Vector database for storing and retrieving embeddings 
- FastEmbed      Text embedding generation 
- LangChain      Recursive text chunking 
+ Python        | Backend programming language 
+ FastAPI       | REST API development 
+ PostgreSQL    | Document metadata and interview booking storage 
+ SQLAlchemy    | Database interaction 
+ Qdrant        | Vector database for storing and retrieving embeddings 
+ FastEmbed     | Text embedding generation 
+ LangChain     | Recursive text chunking 
  Text Splitters  
- Redis          Conversational memory and temporary booking state 
- Google Gemini  LLM for RAG responses and interview booking 
- PyPDF          PDF text extraction 
- Pydantic       Request validation and data modelling 
+ Redis         | Conversational memory and temporary booking state 
+ Google Gemini | LLM for RAG responses and interview booking 
+ PyPDF         | PDF text extraction 
+ Pydantic      | Request validation and data modelling 
 
 # API Documentation
 
